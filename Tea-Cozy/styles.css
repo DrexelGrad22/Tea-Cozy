@@ -1,5 +1,8 @@
 body{
     margin: 0;
+    font-family: helvetica;
+    background-color: black;
+    color: seashell;
 }
 
 header{
@@ -54,47 +57,60 @@ a{
     }
 }
 
-h2{
-    margin:0;
-}
-
 main{
-    padding-top: 69px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top:69px;
 }
 
 .background{
-    background-color: black;
+    margin:0;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+    overflow: hidden;
+    width: 1200px;
+    height: 700px;
     display:flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
+    max-width: 100%
 }
 
 .our-mission{
-    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
-    height: 700px;
-    width: 1200px;
-    display: flex;
-    align-items: center;
+    background-color: black;
+    width:100%;
+    text-align: center;
+}
+
+.our-mission h2{
+    margin: 0;
+}
+
+.monthly-tea{
+    color: seashell;
+    max-width: 100%;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+}
+
+.pics{
+    display:flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
-.black-strip{
-    background-color: black;
-    width: 100%;
-    color: seashell;
-    text-align: center;
-    padding: 5px 0;
+.images{
+    display: flex;
+    flex-direction: column;
 }
 
-h4{
-    margin:0;
-    margin-top: 20px;
+.images img{
+    height: 200px;
+    width: 300px;
+    max-width: 100%
 }
 
-.tea-of-the-month{
-    color: seashell;
-    text-align: center;
-    margin-top: 40px;
+.images p{
+    margin: 10px 0;
 }
