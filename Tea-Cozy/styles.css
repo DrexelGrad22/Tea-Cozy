@@ -114,3 +114,49 @@ main{
 .images p{
     margin: 10px 0;
 }
+
+.locations{
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+    height: 500px;
+    width: 1200px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location-bin{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-around;
+}
+
+.location{
+    height: 300px;
+    width: 300px;
+    min-height: 100px;
+    min-width: 100px;
+    margin-right:40px;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#location-1{
+    margin:0;
+}
+
+.contacts{
+    text-align:center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright{
+    margin-left: 20px;
+}
